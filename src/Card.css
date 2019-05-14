@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: arial, Sans-Serif;
+}
+
+section {
+  width: 40%;
+  margin: 0 auto 20px auto;
+  border: 2px solid black;
+}
+
+section header {
+  display: flex;
+  border-bottom: 1px solid grey;
+  background-color: #eee;
+}
+
+section header p {
+  flex-basis: 33%;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+
+.bottleneck {
+  background-color: red;
+}
+
+.machines {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  border: 3px solid grey;
+  padding-top: 10px;
+}
+
+.machines section {
+  flex-basis: 40%;
+  margin-bottom: 10px;
+}
+
+.machines section button {
+  width: 25px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
